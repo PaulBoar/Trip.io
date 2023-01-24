@@ -1,76 +1,101 @@
 .places {
-  margin: 4rem 8rem;
+	max-width: 80%;
+	margin: 4rem auto;
+}
+
+.places h1 {
+	font-size: 3rem;
+	text-align: center;
+}
+
+.subhead {
+	text-align: center;
+	margin-bottom: 6rem;
+}
+
+.first-description {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 1rem 0 6rem 0;
+}
+
+.first-description:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.description-text {
+	width: 45%;
+	text-align: start;
+	font-size: 1.1rem;
+}
+
+.description-text h2 {
+	padding-bottom: 1rem;
+}
+
+.image {
+	position: relative;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	z-index: -90;
+}
+
+.image img {
+	width: 49%;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 6px;
+	box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.3);
+}
+
+.image img:nth-child(2) {
+	position: absolute;
+	top: -10%;
+	right: 0;
+}
+
+.places:last-child() {
+	margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 756px) {
+	.places {
+		margin: 4rem auto;
+		padding: 0 2rem;
+	}
+
+	.first-description,
+	.first-description:nth-child(even) {
+		display: flex;
+		flex-direction: column-reverse;
+		margin-top: 2.5rem;
+	}
+
+	.description-text {
+		width: 100%;
+	}
+
+	.image {
+		width: 100%;
+		margin: 1.8rem 0;
+	}
+
+	.image img {
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 481px) {
+ .places {
+  padding: 0;
  }
-
- .places h1 {
-  font-size: 3rem;
+ 
+ img:nth-child(1) {
+  width: 100%;
  }
-
- .first-description {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 4.5rem 0 8rem 0;
+ img:nth-child(2) {
+  display: none;
  }
-
- .first-description:nth-child(even) {
-  flex-direction: row-reverse;
- }
-
- .description-text {
-  width: 45%;
-  text-align: start;
-  font-size: 1.1rem;
- }
-
- .description-text h2 {
-  padding-bottom: 1rem;
- }
-
- .image {
-  position: relative;
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  z-index: -90;
- }
-
- .image img {
-  width: 49%;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 6px;
-  box-shadow: -1px 1px 62px -18px rgba(0,0,0, .3);
- }
-
- .image img:nth-child(2) {
-  position: absolute;
-  top: -10%;
-  right: 0;
- }
-
- @media screen and (max-width: 756px) {
-  .places {
-   margin: 4rem 2rem;
-   padding: 0 2rem;
-  }
-
-  .first-description, .first-description:nth-child(even) {
-   display: flex;
-   flex-direction: column-reverse;
-   margin-top: 2.5rem;
-  }
-
-  .description-text {
-   width: 100%;
-  }
-
-  .image {
-   width: 100%;
-   margin: 1.8rem 0;
-  }
-
-  .image img {
-   height: 250px;
-  }
- }
+}

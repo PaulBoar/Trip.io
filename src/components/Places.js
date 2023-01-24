@@ -9,7 +9,7 @@ function Places() {
   return (
     <div className={classes.places}>
      <h1>Popular places</h1>
-     <p>Guided tours shows you real Kyiv</p>
+     <p className={classes.subhead}>Guided tours shows you the real Kyiv</p>
 
      <PlacesData
       heading='Independence Square'
