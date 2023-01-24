@@ -39,7 +39,7 @@ function Navbar() {
 						: (classLink = 'nav-link');
 					return (
 						<li key={index}>
-							<Link to={`${item.url}`} className={classes[classLink]}>
+							<Link to={item.url} className={classes[classLink]}>
 								{item.icon && (
 									<FontAwesomeIcon
 										icon={item.icon}
