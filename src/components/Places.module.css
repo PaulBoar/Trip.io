@@ -1,5 +1,5 @@
 .places {
-  margin: 4rem 6rem;
+  margin: 4rem 8rem;
  }
 
  .places h1 {
@@ -10,7 +10,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 4.5rem;
+  margin: 4.5rem 0 8rem 0;
+ }
+
+ .first-description:nth-child(even) {
+  flex-direction: row-reverse;
  }
 
  .description-text {
@@ -48,10 +52,10 @@
  @media screen and (max-width: 756px) {
   .places {
    margin: 4rem 2rem;
-   padding: 4rem 2rem;
+   padding: 0 2rem;
   }
 
-  .first-description {
+  .first-description, .first-description:nth-child(even) {
    display: flex;
    flex-direction: column-reverse;
    margin-top: 2.5rem;
