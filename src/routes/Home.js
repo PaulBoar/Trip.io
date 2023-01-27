@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Places from '../components/Places';
 import Independence from '../assets/images/Independence.jpg'
+import Trip from '../components/Trip';
 
 function Home() {
 	return (
@@ -18,6 +19,7 @@ function Home() {
 				url='/'
 			/>
 			<Places />
+			<Trip />
 		</>
 	);
 }
