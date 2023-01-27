@@ -76,7 +76,7 @@ img {
 	font-weight: 700;
 	background-color: #fff;
 	text-shadow: 2px 1px rgba(0,0,0, .01);
-	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
