@@ -25,9 +25,13 @@
 }
 
 .description-text {
-	width: 45%;
+	width: 40%;
 	text-align: start;
 	font-size: 1.1rem;
+}
+
+.image {
+	width: 60%;
 }
 
 .description-text h2 {
@@ -36,7 +40,7 @@
 
 .image {
 	position: relative;
-	width: 50%;
+	width: 55%;
 	display: flex;
 	justify-content: space-between;
 	z-index: -90;
@@ -56,14 +60,23 @@
 	right: 0;
 }
 
-.places:last-child() {
-	margin-bottom: 2rem;
+.first-description:last-child {
+	margin-top: 8rem;
+	margin-bottom: 0rem;
 }
 
 @media screen and (max-width: 756px) {
 	.places {
 		margin: 4rem auto;
 		padding: 0 2rem;
+	}
+
+	.places h1 {
+		font-size: 2.5rem;
+	}
+
+	.subhead {
+		margin-bottom: 0;
 	}
 
 	.first-description,
@@ -80,6 +93,7 @@
 	.image {
 		width: 100%;
 		margin: 1.8rem 0;
+		flex-direction: column;
 	}
 
 	.image img {
@@ -98,4 +112,8 @@
  img:nth-child(2) {
   display: none;
  }
+
+	.image {
+		flex-direction: row;
+	}
 }

@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Places from '../components/Places';
 import Independence from '../assets/images/Independence.jpg'
 import Trip from '../components/Trip';
+import Footer from '../components/Footer';
 
 function Home() {
 	return (
@@ -20,6 +21,7 @@ function Home() {
 			/>
 			<Places />
 			<Trip />
+			<Footer />
 		</>
 	);
 }
