@@ -1,0 +1,26 @@
+.about {
+	max-width: 70%;
+	margin: 4rem auto;
+}
+
+.about-nav {
+ padding: 3rem;
+ display: flex;
+ flex-direction: column;
+ background-color: #999;
+ max-width: 20%;
+}
+
+.item {
+ padding: 0.5rem;
+ display: inline-block;
+ transition: .15s;
+}
+
+.item:hover {
+ background-color: #4f24;
+}
+
+.active {
+ background-color: #666;
+}

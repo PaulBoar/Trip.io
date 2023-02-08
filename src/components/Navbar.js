@@ -42,6 +42,7 @@ function Navbar() {
 					item.cName === 'nav-link-mobile'
 						? (classLink = 'nav-link-mobile')
 						: (classLink = 'nav-link');
+
 					return (
 						<li key={index}>
 							<Link to={item.url} className={classes[classLink]}>

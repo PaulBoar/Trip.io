@@ -54,6 +54,10 @@ color: inherit;
 	transition: all 0.2s ease-in-out;
 }
 
+.act {
+	font-size: 15rem;
+}
+
 .nav-link-mobile {
 	display: none;
 }
