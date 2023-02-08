@@ -11,7 +11,7 @@ function About() {
 			<Hero
 				cName='hero-mid'
 				heroImg={Kyiv}
-				title='About Ukraine'
+				title='About Trip.io'
 				btnClass='hide'
 			/>
 			<Footer />

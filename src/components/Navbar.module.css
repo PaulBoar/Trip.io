@@ -21,6 +21,11 @@
 	cursor: pointer;
 }
 
+.logo {
+text-decoration: none;
+color: inherit;
+}
+
 .nav-menu {
 	display: grid;
 	grid-template-columns: repeat(6, auto);

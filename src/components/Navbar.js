@@ -15,15 +15,20 @@ function Navbar() {
 	};
 
 	let menuIcon;
- let active
+	let active;
 
 	clicked ? (menuIcon = faTimes) : (menuIcon = faBars);
-	clicked ? active = [classes['nav-menu'], classes.active].join(' ') : active =  `${classes['nav-menu']}`
- 
+	clicked
+		? (active = [classes['nav-menu'], classes.active].join(' '))
+		: (active = `${classes['nav-menu']}`);
 
 	return (
 		<nav className={classes.navbar}>
-			<h1 className={classes['navbar-logo']}>Trip.io</h1>
+			<h1 className={classes['navbar-logo']}>
+				<Link to='/' className={classes.logo}>
+					Trip.io
+				</Link>
+			</h1>
 
 			<div className={classes['menu-icon']}>
 				<button onClick={handleShowMenu}>
@@ -51,7 +56,6 @@ function Navbar() {
 						</li>
 					);
 				})}
-				<button className={classes['sign-btn']}> Sign up</button>
 			</ul>
 		</nav>
 	);

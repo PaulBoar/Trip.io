@@ -1,7 +1,12 @@
 .footer {
-	background-color: #222;
+	background-color: #111;
 	color: #fff;
-	padding: 4rem 6rem;
+	padding: 4rem 8rem;
+}
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
 }
 
 .top {
