@@ -1,26 +1,20 @@
-.about {
-	max-width: 70%;
+.about-container {
+	max-width: 50%;
 	margin: 4rem auto;
 }
 
-.about-nav {
- padding: 3rem;
- display: flex;
- flex-direction: column;
- background-color: #999;
- max-width: 20%;
+.about-container h3 {
+	padding-bottom: 1rem;
+	text-align: center;
 }
 
-.item {
- padding: 0.5rem;
- display: inline-block;
- transition: .15s;
+.about-container p {
+	padding-bottom: 2rem;
+	text-align: start;
 }
 
-.item:hover {
- background-color: #4f24;
-}
-
-.active {
- background-color: #666;
-}
+@media screen and (max-width: 850px) {
+	.about-container {
+		max-width: 70%;
+	}
+} 

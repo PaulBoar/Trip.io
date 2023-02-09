@@ -18,16 +18,16 @@ function Footer() {
 						<p>Choose your best UA destination</p>
 					</div>
 					<div className={classes.socials}>
-						<a href='/'>
+						<a href='https://facebook.com/' target='_blank'>
 							<FontAwesomeIcon icon={faSquareFacebook} />
 						</a>
-						<a href='/'>
+						<a href='https://twitter.com/' target='_blank'>
 							<FontAwesomeIcon icon={faSquareTwitter} />
 						</a>
-						<a href='/'>
+						<a href='https://www.instagram.com/' target='_blank'>
 							<FontAwesomeIcon icon={faSquareInstagram} />
 						</a>
-						<a href='/'>
+						<a href='https://www.youtube.com/' target='_blank'>
 							<FontAwesomeIcon icon={faSquareYoutube} />
 						</a>
 					</div>
