@@ -52,53 +52,47 @@ function Footer() {
 						</ul>
 					</div>
 					<div className={classes.column}>
-						<h5>Project</h5>
+						<h5>Community</h5>
 						<ul className={classes['column-list']}>
 							<li>
-								<a href='/'>Smotemom</a>
+								<a href='/'>Github</a>
 							</li>
 							<li>
-								<a href='/'>Status</a>
+								<a href='/'>Issues</a>
 							</li>
 							<li>
-								<a href='/'>License</a>
+								<a href='/'>Project</a>
 							</li>
 							<li>
-								<a href='/'>All versions</a>
+								<a href='/'>Twitter</a>
 							</li>
 						</ul>
 					</div>
 					<div className={classes.column}>
-						<h5>Project</h5>
+						<h5>Help</h5>
 						<ul className={classes['column-list']}>
 							<li>
-								<a href='/'>Smotemom</a>
+								<a href='/'>Support</a>
 							</li>
 							<li>
-								<a href='/'>Status</a>
+								<a href='/'>Troubleshooting</a>
 							</li>
 							<li>
-								<a href='/'>License</a>
-							</li>
-							<li>
-								<a href='/'>All versions</a>
+								<a href='/contact'>Contact us</a>
 							</li>
 						</ul>
 					</div>
 					<div className={classes.column}>
-						<h5>Project</h5>
+						<h5>Others</h5>
 						<ul className={classes['column-list']}>
 							<li>
-								<a href='/'>Smotemom</a>
+								<a href='/'>Terms of Service</a>
 							</li>
 							<li>
-								<a href='/'>Status</a>
+								<a href='/'>Privacy Policy</a>
 							</li>
 							<li>
 								<a href='/'>License</a>
-							</li>
-							<li>
-								<a href='/'>All versions</a>
 							</li>
 						</ul>
 					</div>
