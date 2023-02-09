@@ -1,23 +1,47 @@
 .container {
- height: 100%;
- width: 100%;
- position: fixed;
+	height: 100%;
+	width: 100%;
+	position: fixed;
 }
 
 .video {
- overflow: hidden;
- padding-bottom: 56.25%;
- position: relative;
- width: 100%;
- height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	width: 100%;
+	height: 0;
 }
 
 .video iframe {
- top: 45%;
- left: 50%;
- transform: translate(-50%, -50%);
- position: absolute;
- height: 65%;
- width: 65%;
- border: 0;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	height: 55%;
+	width: 55%;
+	border: 0;
+}
+
+@media screen and (max-width: 850px) {
+	.video {
+		padding-bottom: 75%;
+	}
+
+ .video iframe {
+  top: 75%;
+  width: 80%;
+  height: 60%;
+ }
+}
+
+@media screen and (max-width: 576px) {
+	.video {
+  padding-top: 66.66%;
+ 	}
+
+ .video iframe {
+  top: 50%;
+  width: 90%;
+  height: 40%;
+ }
 }
