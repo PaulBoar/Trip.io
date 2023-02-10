@@ -27,6 +27,7 @@
 	font-size: 2rem;
 	color: inherit;
 	margin-left: 1rem;
+	transition: .2s;
 }
 
 .socials a:first-child {
@@ -35,6 +36,7 @@
 
 .socials a:hover {
 	color: #df9342;
+	transform: scale(1.1);
 }
 
 .bottom {

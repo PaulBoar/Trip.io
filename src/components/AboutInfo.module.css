@@ -17,4 +17,7 @@
 	.about-container {
 		max-width: 70%;
 	}
-} 
+	.about-container p {
+		text-align: center;
+	}
+}

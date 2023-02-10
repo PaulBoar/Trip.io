@@ -1,5 +1,5 @@
 import {
-	faHouseUser, faBriefcase, faAddressBook, faCircleInfo
+	faHouseUser, faAddressBook, faCircleInfo, faBrain
 } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -17,10 +17,10 @@ export const MenuItems = [
   icon: faCircleInfo
  },
  {
-  title: 'Service',
-  url: '/service',
+  title: 'Quiz',
+  url: '/quiz',
   cName: 'nav-links',
-  icon: faBriefcase
+  icon: faBrain
  },
  {
   title: 'Contact',
