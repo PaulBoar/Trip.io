@@ -46,17 +46,17 @@ function Quiz() {
 		}
 	};
 
-  const resetQuizHanlder = () => {
-    setSelectedAnswerIndex(null)
-    setActiveQuestion(0)
-    setSelectedAnswer('')
-    setShowResult(false)
-    setResult({
-      score: 0,
-      correctAnswers: 0,
-      wrongAnswers: 0,
-    })
-  }
+	const resetQuizHanlder = () => {
+		setSelectedAnswerIndex(null);
+		setActiveQuestion(0);
+		setSelectedAnswer('');
+		setShowResult(false);
+		setResult({
+			score: 0,
+			correctAnswers: 0,
+			wrongAnswers: 0,
+		});
+	};
 
 	const quizContent = (
 		<>
@@ -85,9 +85,14 @@ function Quiz() {
 		</>
 	);
 
+	let resultTitle;
+	result.correctAnswers >= 3
+		? (resultTitle = 'Congratulations! 😎')
+		: (resultTitle = 'You shoud visit Ukraine 😉');
+
 	const quizResult = (
 		<div className={classes.result}>
-			<h3>Result</h3>
+			<h3>{resultTitle}</h3>
 			<p>
 				Total Questions: <span>{questions.length}</span>
 			</p>
@@ -100,7 +105,7 @@ function Quiz() {
 			<p>
 				Wrong Answers: <span>{result.wrongAnswers}</span>
 			</p>
-      <div className={classes['quiz-btn']}>
+			<div className={classes['quiz-btn']}>
 				<button onClick={resetQuizHanlder}>Try Again</button>
 			</div>
 		</div>

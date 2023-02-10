@@ -17,7 +17,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 1rem 0 6rem 0;
+	margin: 8rem 0 6rem 0;
 }
 
 .first-description:nth-child(even) {
@@ -67,6 +67,7 @@
 
 @media screen and (max-width: 756px) {
 	.places {
+		max-width: 80%;
 		margin: 4rem auto;
 		padding: 0 2rem;
 	}
@@ -83,7 +84,12 @@
 	.first-description:nth-child(even) {
 		display: flex;
 		flex-direction: column-reverse;
-		margin-top: 2.5rem;
+		margin: 2.5rem 0 2rem 0;
+	}
+
+	.first-description:last-child {
+		margin-top: 2rem;
+		margin-bottom: 0rem;
 	}
 
 	.description-text {

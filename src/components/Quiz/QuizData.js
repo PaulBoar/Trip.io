@@ -6,35 +6,35 @@ export const quiz = {
  questions: [
    {
      question:
-       'Which function is used to serialize an object into a JSON string in Javascript?',
-     choices: ['stringify()', 'parse()', 'convert()', 'None of the above'],
+       'Ukraine is often referred to by which nickname?',
+     choices: ['The golden vale of Europe', 'The basket case of Europe', 'The bread basket of Europe', 'The cabbage patch of Europe'],
      type: 'MCQs',
-     correctAnswer: 'stringify()',
+     correctAnswer: 'The bread basket of Europe',
    },
    {
      question:
-       'Which of the following keywords is used to define a variable in Javascript?',
-     choices: ['var', 'let', 'var and let', 'None of the above'],
+       `What is Ukraine's currency called? `,
+     choices: ['Hryvna', 'Ukrainian ruble', 'Ukrainian zloty', 'None of the above'],
      type: 'MCQs',
-     correctAnswer: 'var and let',
+     correctAnswer: 'Hryvna',
    },
    {
      question:
-       'Which of the following methods can be used to display data in some form using Javascript?',
+       `Ukraine's Chornobyl power plant became the site of one of the world's worst nuclear disasters. To limit it's impact, a special "exlusion zone" has been created. What is it's radius?`,
      choices: [
-       'document.write()',
-       'console.log()',
-       'window.alert',
-       'All of the above',
+       '15 km',
+       '30 km',
+       '80 km',
+       '300 km',
      ],
      type: 'MCQs',
-     correctAnswer: 'All of the above',
+     correctAnswer: '30 km',
    },
    {
-     question: 'How can a datatype be declared to be a constant type?',
-     choices: ['const', 'var', 'let', 'constant'],
+     question: `What is Kyiv's Arsenalaya subway station's unique claim to fame?`,
+     choices: [`It has the world's longest escalator`, 'It is the deepest subway station in the world.', 'It was the first subway station in the world to be designed with easy access for the disabled.', 'It is the only station in the world to be heated by an underground hot spring.'],
      type: 'MCQs',
-     correctAnswer: 'const',
+     correctAnswer: 'It is the deepest subway station in the world.',
    },
  ],
 }

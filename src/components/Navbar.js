@@ -11,7 +11,6 @@ function Navbar() {
 
 	const handleShowMenu = () => {
 		setClicked(!clicked);
-		console.log('first');
 	};
 
 	let menuIcon;
@@ -38,10 +37,10 @@ function Navbar() {
 
 			<ul className={active}>
 				{MenuItems.map((item, index) => {
-					let classLink;
-					item.cName === 'nav-link-mobile'
-						? (classLink = 'nav-link-mobile')
-						: (classLink = 'nav-link');
+					let classLink = 'nav-link';
+					// item.cName === 'nav-link-mobile'
+					// 	? (classLink = 'nav-link-mobile')
+					// 	: (classLink = 'nav-link');
 
 					return (
 						<li key={index}>

@@ -11,16 +11,16 @@ export const MenuItems = [
   icon: faHouseUser
  },
  {
-  title: 'About',
-  url: '/about',
-  cName: 'nav-links',
-  icon: faCircleInfo
- },
- {
   title: 'Quiz',
   url: '/quiz',
   cName: 'nav-links',
   icon: faBrain
+ },
+ {
+  title: 'About',
+  url: '/about',
+  cName: 'nav-links',
+  icon: faCircleInfo
  },
  {
   title: 'Contact',
@@ -28,9 +28,4 @@ export const MenuItems = [
   cName: 'nav-links',
   icon: faAddressBook
  },
- {
-  title: 'Sign Up',
-  url: '/signup',
-  cName: 'nav-link-mobile',
- }
 ]

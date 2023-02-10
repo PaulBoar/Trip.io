@@ -9,7 +9,6 @@ function ContactForm() {
 
 	const onSendMessage = (e) => {
 		e.preventDefault();
-		console.log(name, email, subject, body);
   const msg = {name: name, email: email, subj: subject, body: body}
 		fetch(
 			'https://trip-io-6f20d-default-rtdb.europe-west1.firebasedatabase.app/messages.json',
