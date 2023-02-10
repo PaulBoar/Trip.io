@@ -1,8 +1,7 @@
-import Navbar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import Home from './routes/Home';
 import About from './routes/About';
-import Service from './routes/Service';
+import Quiz from './routes/Quiz';
 import Contact from './routes/Contact';
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
 			<Routes>
 				<Route path='/' element={<Home/>} />
 				<Route path='/about' element={<About/>} />
-				<Route path='/service' element={<Service/>} />
+				<Route path='/quiz' element={<Quiz/>} />
 				<Route path='/contact' element={<Contact/>} />
 			</Routes>
 		</div>
