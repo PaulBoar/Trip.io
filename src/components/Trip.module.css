@@ -56,6 +56,10 @@ transition: .3s ease-in-out;
   flex-direction: column;
  }
 
+	.trip-img {
+		padding: 0;
+	}
+
 	.trip h2 {
 		font-size: 2rem;
 	}
@@ -63,6 +67,10 @@ transition: .3s ease-in-out;
  .card {
   width: 100%;
   margin-bottom: 2rem;
-
+		padding: 0;
  }
+
+	.trip-text {
+		padding: 0 0.85rem 0.75rem ;
+	}
 }

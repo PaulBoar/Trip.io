@@ -38,7 +38,7 @@ function Footer() {
 						<h5>Project</h5>
 						<ul className={classes['column-list']}>
 							<li>
-								<a href='/'>Smotemom</a>
+								<a href='/'>Summarize</a>
 							</li>
 							<li>
 								<a href='/'>Status</a>
@@ -98,6 +98,7 @@ function Footer() {
 					</div>
 				</div>
 			</div>
+			<p className={classes['footer-rights']}>&copy; Trip.io 2023 All Rights Reserved.</p>
 		</div>
 	);
 }
