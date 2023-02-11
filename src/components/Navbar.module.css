@@ -87,7 +87,7 @@ color: inherit;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		background-color: hwb(0 100% 0%);
+		background-color: #fff;
 		width: 100%;
 		height: auto;
 		position: absolute;
