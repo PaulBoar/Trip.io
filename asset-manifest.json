@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Trip.io/static/css/main.3243c59b.css",
-    "main.js": "/Trip.io/static/js/main.e45e283d.js",
+    "main.css": "/Trip.io/static/css/main.90201219.css",
+    "main.js": "/Trip.io/static/js/main.1dad2931.js",
     "static/media/HeroKyiv.jpg": "/Trip.io/static/media/HeroKyiv.90e3d4d10c534766ac60.jpg",
     "static/media/Lviv.jpg": "/Trip.io/static/media/Lviv.c211c45eb094d3badbc5.jpg",
     "static/media/Independence.jpg": "/Trip.io/static/media/Independence.fbdf22a92e8bd0c5c687.jpg",
@@ -13,11 +13,11 @@
     "static/media/golden-gate-statue.jpg.webp": "/Trip.io/static/media/golden-gate-statue.jpg.85eab3f1f7a86cebe981.webp",
     "static/media/Motherland.jpg": "/Trip.io/static/media/Motherland.6f32d1c800f24b951895.jpg",
     "index.html": "/Trip.io/index.html",
-    "main.3243c59b.css.map": "/Trip.io/static/css/main.3243c59b.css.map",
-    "main.e45e283d.js.map": "/Trip.io/static/js/main.e45e283d.js.map"
+    "main.90201219.css.map": "/Trip.io/static/css/main.90201219.css.map",
+    "main.1dad2931.js.map": "/Trip.io/static/js/main.1dad2931.js.map"
   },
   "entrypoints": [
-    "static/css/main.3243c59b.css",
-    "static/js/main.e45e283d.js"
+    "static/css/main.90201219.css",
+    "static/js/main.1dad2931.js"
   ]
 }
