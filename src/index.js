@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Router basename='/trip.io'>
+    <Router basename='/Trip.io'>
         <App />
     </Router>
 );
