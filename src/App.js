@@ -3,6 +3,7 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Quiz from './routes/Quiz';
 import Contact from './routes/Contact';
+import NotFound from './routes/NotFound';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 				<Route path='/about' element={<About/>} />
 				<Route path='/quiz' element={<Quiz/>} />
 				<Route path='/contact' element={<Contact/>} />
+				<Route path='*' element={<NotFound />}/>
 			</Routes>
 		</div>
 	);
